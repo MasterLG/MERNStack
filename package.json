@@ -1,0 +1,33 @@
+{
+  "name": "mernstack",
+  "version": "1.0.0",
+  "description": "Social Network App",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterLG/MERNStack.git"
+  },
+  "author": "Levent GÜZELOĞLU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterLG/MERNStack/issues"
+  },
+  "homepage": "https://github.com/MasterLG/MERNStack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
